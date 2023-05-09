@@ -1,3 +1,4 @@
+
 .section1
 {
 height: 700px;
@@ -23,8 +24,39 @@ align-items: center;
 
 /* SECTION 2 */
 .section2{
-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 400px;
 
+}
+
+.cardHolder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin:10px;
+  width:200px;
+  height: 250px;
+  border-radius: 5px;
+  background: #58af982a;
+  /* border: 2px solid #58af98; */
+
+}
+.cardImages i{
+  font-size: 50px;
+  color: #58af98;
+}
+
+.serviceTitle{
+  text-align: center;
 }
 /* SECTION 3 */
 .section3{
