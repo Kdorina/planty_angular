@@ -1,0 +1,38 @@
+.section1
+{
+height: 700px;
+background: url('/assets/plant1.jpg') no-repeat;
+background-size: cover;
+object-fit: cover;
+}
+.holder{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainTitle{
+display: flex;
+align-items: center;
+}
+.mainTitle p{
+  font-size: 30vmin;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+/* SECTION 2 */
+.section2{
+height: 400px;
+
+}
+/* SECTION 3 */
+.section3{
+  height: 500px;
+
+}
+/* SECTION 4 */
+.section4{
+  height: 300px;
+
+}
