@@ -142,6 +142,7 @@ flex-direction: column;
 /* SECTION 4 */
 .section4{
   display: flex;
+  justify-content: center;
   margin-top: 100px;
   background: linear-gradient(180deg,white,#58af98a1,#58af98a1,#58af98a1, white);
 }
@@ -222,6 +223,6 @@ min-height: 300px;
 }
 
 
-.footer{
+app-footer{
   margin-top: 150px;
 }
