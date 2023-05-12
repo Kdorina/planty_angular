@@ -70,7 +70,7 @@ align-items: center;
 .contentHolder{
   width: 80%;
   height: 100%;
-  background-color: mediumturquoise;
+/*   background-color: mediumturquoise; */
 
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -95,7 +95,21 @@ flex-direction: column;
   line-height: 26px;
   padding-bottom: 15px;
 }
+.down{
+  top: 1480px;
+  width: 80%;
+  height: 100px;
+  display: flex;
+  justify-content: right;
+  position: absolute;
 
+}
+.down p{
+  background-color: #58af98;
+  text-align: left;
+  margin-left: 40%;
+ /*  max-width: 400px; */
+}
 
 @media (max-width:990px) {
   .contentHolder .text{
@@ -107,6 +121,22 @@ flex-direction: column;
     width: 90%;
     grid-template-columns: 1fr;
 
+  }
+  .down{
+    top: 1380px;
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+
+
+  }
+  .down p{
+    background-color: #58af98;
+    text-align: left;
+    margin-left: 0px;
+    width: 70%;
   }
 }
 
