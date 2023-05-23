@@ -66,6 +66,7 @@ align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 50px;
 }
 
 .contentHolder{
@@ -97,7 +98,7 @@ flex-direction: column;
   padding-bottom: 15px;
 }
 .down{
-  top: 1630px;
+  top: 1590px;
   width: 80%;
   height: 100px;
   display: flex;
@@ -124,7 +125,7 @@ flex-direction: column;
 
   }
   .down{
-    top: 1530px;
+    top: 1500px;
     width: 90%;
     height: 100px;
     display: flex;
@@ -135,7 +136,7 @@ flex-direction: column;
   .down p{
     background: #58af71bf;
     text-align: left;
-    margin-left: 0px;
+    margin-left: -15%;
     width: 70%;
   }
 }
