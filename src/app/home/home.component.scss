@@ -8,7 +8,7 @@
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #9dc766;
+  background-color: #276f11ec;
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -29,7 +29,7 @@
 .section1
 {
 height: 700px;
-background: url('/assets/plant1.jpg') no-repeat;
+background: url('/assets/plant8.jpg') no-repeat;
 background-size: cover;
 object-fit: cover;
 
@@ -76,13 +76,14 @@ align-items: center;
   width:200px;
   height: 250px;
   border-radius: 5px;
-  background: #58af715e;
+ /*  background: #58af715e; */
+  background: #e6d3b15e;
   /* border: 2px solid #58af98; */
 
 }
 .cardImages i{
   font-size: 50px;
-  color: #3d9b4eec;
+  color: #276f11ec;
 }
 
 .serviceTitle{
@@ -139,7 +140,7 @@ flex-direction: column;
 
 }
 .down p{
-  background: #58af71bf;
+  background: #276f119b;
   text-align: left;
   margin-left: 40%;
  /*  max-width: 400px; */
@@ -166,7 +167,7 @@ flex-direction: column;
 
   }
   .down p{
-    background: #58af71bf;
+    background: #276f119b;
     text-align: left;
     margin-left: -15%;
     width: 70%;
@@ -250,7 +251,7 @@ min-height: 300px;
 
 .titleBox{
   width: calc(50% - 2rem);
-  background: #58af715e;
+  background: #e6d3b15e;
   border-radius: 10px;
   padding: 10px;
 }
@@ -268,7 +269,7 @@ min-height: 300px;
 .section5{
   height: 550px;
 /*   margin-top: 100px; */
-  background: url("/assets/plant7.jpg") no-repeat;
+  background: url("/assets/plant9.jpg") no-repeat;
   background-size: cover;
   object-fit: cover;
   display: flex;
@@ -292,12 +293,12 @@ min-height: 300px;
   width:200px;
   height: 250px;
   border-radius: 5px;
-  background: #ffffff5e;
+  background: #ffffff9a;
   /* border: 2px solid #58af98; */
 }
 .dataImg i{
   font-size: 60px;
-  color: #59b56aec;
+  color: #47813d;
 }
 
 .dataHolder .plantImg{
