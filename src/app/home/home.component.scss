@@ -32,7 +32,9 @@ height: 700px;
 background: url('/assets/plant1.jpg') no-repeat;
 background-size: cover;
 object-fit: cover;
+
 }
+
 .holder{
   height: 100%;
   display: flex;
@@ -42,6 +44,7 @@ object-fit: cover;
 .mainTitle{
 display: flex;
 align-items: center;
+
 }
 .mainTitle p{
   font-size: 30vmin;
@@ -113,11 +116,13 @@ overflow: hidden;
   height: 100%;
   object-fit: cover;
 }
+
 .contentHolder .text{
 display: flex;
 align-items: center;
 flex-direction: column;
 }
+
 .contentHolder .text p{
   padding-left: 20px;
   font-size: 16px;
