@@ -1,10 +1,17 @@
-.nav{
+
+.navbar {
   padding: 10px;
 }
-nav a{
-  color: rgb(255, 255, 255);
+.container-fluid a{
+color: #ffffff;
+}
+button{
+  background-color: #ffffff7c;
+}
+.navbar-nav a{
+  color: #ffffff;
 }
 
-.nav a:hover{
+.navbar-nav a:hover{
   font-weight: 700;
 }
