@@ -162,11 +162,12 @@ flex-direction: column;
 
 }
 .down p{
-  background: #276f119b;
+ /*  background: #276f119b; */
+  background-color: #31a77db9;
   text-align: left;
   margin-left: 40%;
   color: white;
- /*  max-width: 400px; */
+
 }
 
 @media (max-width:990px) {
@@ -190,7 +191,8 @@ flex-direction: column;
 
   }
   .down p{
-    background: #276f119b;
+   /*  background: #276f119b; */
+    background-color: #31a77db9;
     text-align: left;
     margin-left: -15%;
     width: 70%;
