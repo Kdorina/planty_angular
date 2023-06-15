@@ -1,10 +1,23 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
   styleUrls: ['./register.component.scss']
 })
-export class RegisterComponent {
+export class RegisterComponent implements OnInit{
+
+  registerForm !: FormGroup;
+
+  constructor(){}
+
+  ngOnInit(): void {
+    throw new Error('Method not implemented.');
+  }
+
+  register(){
+    
+  }
 
 }

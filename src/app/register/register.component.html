@@ -1,1 +1,37 @@
-<p>register works!</p>
+
+<div class="registerPage">
+  <form action=""  [formGroup]="registerForm" (click)="register()">
+    <div class="container">
+
+      <div class="regTitle">
+        <p>Bejelentkezés</p>
+      </div>
+      <div class="input mb-3">
+        <label for="" class="form-label">Teljes név</label>
+        <input class="form-control" formControlName="name" type="text">
+      </div>
+
+      <div class="input mb-3">
+        <label for="" class="form-label">Email cím</label>
+        <input class="form-control" formControlName="email" type="text">
+      </div>
+
+      <div class="input mb-3">
+        <label for="" class="form-label">Jelszó</label>
+        <input class="form-control" formControlName="password" type="text">
+      </div>
+
+      <div class="input mb-3">
+        <label for="" class="form-label">Jelszó</label>
+        <input class="form-control" formControlName="password" type="text">
+      </div>
+
+      <div class="button text-center">
+        <button type="submit" class="btn btn-dark">Bejelentkezés</button>
+      </div>
+
+      <a routerLink="/login">Van már fiókja? Jelentkezzen be!</a>
+
+    </div>
+  </form>
+</div>
