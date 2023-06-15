@@ -1,0 +1,10 @@
+<div class="form">
+  <form (click)="addPlant()" [formGroup]="plantForm">
+    <div class="holder">
+     <div class="userName">name</div>
+     <div class="images" *ngFor="let image of images">
+      <button type="submit"><img [src]='"http://localhost:8000/storage/"+image.imgpath' alt=""></button>
+     </div>
+    </div>
+  </form>
+</div>
