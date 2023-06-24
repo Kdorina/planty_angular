@@ -28,8 +28,22 @@ export class LoginComponent implements OnInit{
     }
     this.api.login(data).subscribe({
       next:data=>{
-        console.log('sikeres bejelentkezes');
+
+        console.log(data.data.token);
+        console.log(data.data.name);
+
+        if(data.success) {
+
+        localStorage.setItem('currentUser', JSON.stringify({token: data.data.token, name: data.data.name}));
+
         this.router.navigate(['/user/home']);
+
+        }
+      else
+      {
+        alert('A belépés sikertelen!');
+    }
+
       }
     })
   }

@@ -1,17 +1,16 @@
 <div class="form">
-  <form (click)="addPlant()" [formGroup]="plantForm">
+<!--   <form (click)="addPlant()" [formGroup]="plantForm"> -->
     <div class="holder">
      <div class="userName">name</div>
      <div class="images" *ngFor="let image of plants">
       <button type="submit"><img [src]='"http://localhost:8000/storage/"+image.imgpath' alt=""></button>
      </div>
     </div>
-  </form>
+<!--   </form> -->
 </div>
 
 <div class="myplant">
-  <form action="">
-   <div class="datas" *ngFor="let plant of plants">
+  <div class="datas" *ngFor="let plant of plants">
     <td>
       <tr>{{plant.id}}</tr>
       <tr>{{plant.name}}</tr>
@@ -23,5 +22,4 @@
       <tr>{{plant.heat_demand}}</tr>
     </td>
    </div>
-  </form>
 </div>

@@ -23,7 +23,7 @@ export class UhomeComponent implements OnInit{
     this.api.index(currentUser.token).subscribe({
       next:data=>{
         this.plants = data;
-        console.log(data);
+        console.log(this.plants);
       }
     })
 
