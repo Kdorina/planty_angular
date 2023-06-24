@@ -1,4 +1,4 @@
-<div class="form">
+<div class="form" *ngIf="newUser">
 <!--   <form (click)="addPlant()" [formGroup]="plantForm"> -->
     <div class="holder">
      <div class="userName">name</div>
@@ -9,7 +9,7 @@
 <!--   </form> -->
 </div>
 
-<div class="myplant">
+<div class="myplant"  *ngIf="myPlant">
   <div class="datas" *ngFor="let plant of plants">
     <td>
       <tr>{{plant.id}}</tr>

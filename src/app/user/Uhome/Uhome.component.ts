@@ -11,6 +11,8 @@ export class UhomeComponent implements OnInit{
 
   plantForm!:FormGroup;
   plants!:any;
+  newUser!:any;
+  myPlant!:any;
   constructor(private api : ApiService ){}
 
   ngOnInit() {
@@ -24,10 +26,20 @@ export class UhomeComponent implements OnInit{
       next:data=>{
         this.plants = data;
         console.log(this.plants);
+
       }
+
     })
 
+    if(this.plants = null){
+      this.newUser = true;
+      this.myPlant = false;
+    }else{
+      this.newUser = false;
+      this.myPlant = true;
     }
+
+}
 
     addPlant(){
 
