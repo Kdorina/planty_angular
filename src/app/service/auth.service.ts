@@ -50,4 +50,14 @@ export class AuthService {
 
       return this.http.post<any>(url, data, httpOptions);
   }
+
+  isLoggedIn(){
+    if(localStorage.getItem('currentUser') === null){
+      return false;
+    }
+    let data:any = localStorage.getItem('currentUser');
+    let userData = JSON.parse(data);
+    let token = userData.token;
+    return token;
+  }
 }

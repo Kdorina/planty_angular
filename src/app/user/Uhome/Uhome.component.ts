@@ -10,18 +10,19 @@ import { ApiService } from '../../service/api.service';
 export class UhomeComponent implements OnInit{
 
   plantForm!:FormGroup;
-
+  plants!:any;
   constructor(private api : ApiService ){}
 
   ngOnInit() {
     this.index();
   }
 
-  images:any;
   index(){
-    this.api.index().subscribe({
+    let jsonUserData : any = localStorage.getItem("currentUser")
+    let currentUser = JSON.parse(jsonUserData);
+    this.api.index(currentUser.token).subscribe({
       next:data=>{
-        this.images = data;
+        this.plants = data;
         console.log(data);
       }
     })

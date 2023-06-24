@@ -10,8 +10,17 @@ export class ApiService {
 
   host = 'http://localhost:8000/api/';
 
-  index(){
-    return this.http.get<any>(this.host+'plants');
+  index(token:string){
+    let header = new HttpHeaders({
+      'Content-Type': 'application/json',
+      'Authorization': 'Bearer ' + token
+    });
+
+      let httpOptions ={
+        headers: header
+      }
+      
+    return this.http.get<any>(this.host+'myplants', httpOptions);
   }
 
 }

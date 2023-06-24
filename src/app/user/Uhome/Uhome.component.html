@@ -2,9 +2,26 @@
   <form (click)="addPlant()" [formGroup]="plantForm">
     <div class="holder">
      <div class="userName">name</div>
-     <div class="images" *ngFor="let image of images">
+     <div class="images" *ngFor="let image of plants">
       <button type="submit"><img [src]='"http://localhost:8000/storage/"+image.imgpath' alt=""></button>
      </div>
     </div>
+  </form>
+</div>
+
+<div class="myplant">
+  <form action="">
+   <div class="datas" *ngFor="let plant of plants">
+    <td>
+      <tr>{{plant.id}}</tr>
+      <tr>{{plant.name}}</tr>
+      <tr>{{plant.description}}</tr>
+      <tr>{{plant.watering}}</tr>
+      <tr>{{plant.temperature}}</tr>
+      <tr>{{plant.light_requirement}}</tr>
+      <tr>{{plant.humidity}}</tr>
+      <tr>{{plant.heat_demand}}</tr>
+    </td>
+   </div>
   </form>
 </div>
