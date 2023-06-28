@@ -16,10 +16,10 @@ export class RegisterComponent implements OnInit{
 
   ngOnInit(): void {
     this.registerForm = this.fb.group({
-      name:[],
-      email:[],
-      password:[],
-      confirm_password:[],
+      name:[''],
+      email:[''],
+      password:[''],
+      confirm_password:[''],
     })
   }
 
@@ -34,6 +34,7 @@ export class RegisterComponent implements OnInit{
     this.api.register(data).subscribe({
       next:data=>{
         console.log('Sikeres regisztráció');
+        localStorage.setItem('currentUser', JSON.stringify(data));
         this.router.navigate(['/login']) //sikeres regisztráció esetén login oldalra dobja a felhasználót
       }
     })
