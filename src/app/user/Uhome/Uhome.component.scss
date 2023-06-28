@@ -1,3 +1,4 @@
+
 .form{
   display: flex;
   justify-content: center;
@@ -12,4 +13,29 @@ form{
 img{
   width: 20%;
   height: 20%;
+}
+
+
+.section{
+  height: 700px;
+  background: url('/assets/bg2.png') no-repeat;
+  background-color: rgb(163, 227, 126);
+  background-size: cover;
+  object-fit: cover;
+  overflow: hidden;
+
+}
+.myplant{
+  background-color: #ffffff96;
+  height: 100%;
+  margin: 50px;
+  display: flex;
+  border-radius: 20px;
+}
+
+.section1
+{
+  height: 200px;
+  width: 100%;
+  background-color: black;
 }
