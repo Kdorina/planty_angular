@@ -1,7 +1,8 @@
 
-<div class="section">
+<div class="section"  *ngFor="let plant of plants">
   <div class="myplant">
-    <div class="datas" *ngFor="let plant of plants">
+    <app-user-navbar></app-user-navbar>
+    <div class="datas">
         <p>{{plant.name}}</p>
         <p>{{plant.description}}</p>
         <p>{{plant.watering}}</p>

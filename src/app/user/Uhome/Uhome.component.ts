@@ -3,7 +3,7 @@ import { FormGroup } from '@angular/forms';
 import { ApiService } from '../../service/api.service';
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-user-home',
   templateUrl: './Uhome.component.html',
   styleUrls: ['./Uhome.component.scss']
 })

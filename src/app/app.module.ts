@@ -12,6 +12,7 @@ import { HttpClientModule} from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { UserComponent } from './user/user.component';
 import { UhomeComponent } from './user/Uhome/Uhome.component';
+import { UserNavbarComponent } from './user/userNavbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { UhomeComponent } from './user/Uhome/Uhome.component';
     RegisterComponent,
     LoginComponent,
     UserComponent,
-    UhomeComponent
+    UhomeComponent,
+    UserNavbarComponent
   ],
   imports: [
     BrowserModule,
