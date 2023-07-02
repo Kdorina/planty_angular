@@ -63,6 +63,10 @@ img{
  /*  background-color: coral; */
   width: 50%;
 }
+.watering{
+/*   background-color: hotpink; */
+  margin: 20px;
+}
 .holder{
   display: flex;
 
@@ -72,3 +76,20 @@ img{
   background: none;
 }
 
+.waterBtn button{
+
+  border: 2px solid #81c5f5;
+  border-radius: 50%;
+  background: #81c5f5;
+  width: 80px;
+  height: 80px;
+  font-size: 25px;
+
+}
+.waterBtn button:hover{
+
+  border: 2px solid #3795d9;
+  border-radius: 50%;
+  background: #3795d9;
+
+}
