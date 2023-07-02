@@ -41,8 +41,21 @@ img{
 }
 .left
 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   width: 50%;
   background-color: rgb(185, 80, 255);
+}
+.leftImg{
+  background-color: darkturquoise;
+  width: 80%;
+}
+.leftImg img{
+  object-fit: cover;
+  background-size: cover;
+  width: 100%;
+
 }
 .right{
   display: flex;
@@ -50,3 +63,12 @@ img{
  /*  background-color: coral; */
   width: 50%;
 }
+.holder{
+  display: flex;
+
+}
+.infoBtn button{
+  border: none;
+  background: none;
+}
+

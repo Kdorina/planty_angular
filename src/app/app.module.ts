@@ -13,6 +13,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { UserComponent } from './user/user.component';
 import { UhomeComponent } from './user/Uhome/Uhome.component';
 import { UserNavbarComponent } from './user/userNavbar/navbar.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { UserNavbarComponent } from './user/userNavbar/navbar.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

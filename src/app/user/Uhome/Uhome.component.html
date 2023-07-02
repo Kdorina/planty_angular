@@ -5,7 +5,9 @@
     <div class="datas">
 
         <div class="left">
-          <img [src]='"http://localhost:8000/storage/"+plant.imgpath' style="height:150px" alt="">
+          <div class="leftImg">
+            <img [src]='"http://localhost:8000/storage/"+plant.imgpath' style="height:150px" alt="">
+          </div>
           <p>{{plant.name}}</p>
         </div>
 
@@ -86,6 +88,29 @@
           </div>
 
         </div>
+     </div>
+
+     <div class="watering">
+
+      <div class="holder">
+        <div class="waterTitle">
+          <p>Locsolás</p>
+        </div>
+        <div class="infoBtn">
+            <button type="button"
+             placement="top"
+              ngbTooltip="magyarázat hogyan lehet vizet rögzíteni">
+              <i class="bi bi-info-circle"></i>
+            </button>
+        </div>
+      </div>
+
+      <div class="waterBtn">
+        <button>
+          <i class="bi bi-droplet-half"></i>
+        </button>
+      </div>
+
      </div>
   </div>
 </div>
