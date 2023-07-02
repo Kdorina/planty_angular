@@ -33,10 +33,20 @@ img{
   border-radius: 20px;
   flex-direction: column;
 }
-
-.section1
+.datas{
+  display: flex;
+/*   flex-direction: row; */
+  margin: 20px;
+/*   background-color: rgb(80, 255, 214); */
+}
+.left
 {
-  height: 200px;
-  width: 100%;
-  background-color: black;
+  width: 50%;
+  background-color: rgb(185, 80, 255);
+}
+.right{
+  display: flex;
+  flex-direction: column;
+ /*  background-color: coral; */
+  width: 50%;
 }
