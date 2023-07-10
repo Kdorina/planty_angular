@@ -27,7 +27,7 @@ export class LoginComponent implements OnInit{
       password: this.loginForm.value.password
     }
     this.api.login(data).subscribe({
-      next:data=>{
+      next:(data:any)=>{
 
         console.log(data.data.token);
         console.log(data.data.name);

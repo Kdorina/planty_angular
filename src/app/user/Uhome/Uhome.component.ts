@@ -23,7 +23,7 @@ export class UhomeComponent implements OnInit{
     let jsonUserData : any = localStorage.getItem("currentUser")
     let currentUser = JSON.parse(jsonUserData);
     this.api.index(currentUser.token).subscribe({
-      next:data=>{
+      next:(data: any)=>{
         this.plants = data;
         console.log(this.plants);
 

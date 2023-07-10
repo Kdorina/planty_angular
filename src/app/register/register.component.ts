@@ -32,7 +32,7 @@ export class RegisterComponent implements OnInit{
     }
 
     this.api.register(data).subscribe({
-      next:data=>{
+      next:(data: any)=>{
         console.log('Sikeres regisztráció');
         localStorage.setItem('currentUser', JSON.stringify(data));
         this.router.navigate(['/login']) //sikeres regisztráció esetén login oldalra dobja a felhasználót
