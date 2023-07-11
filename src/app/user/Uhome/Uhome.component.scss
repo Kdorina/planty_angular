@@ -25,71 +25,38 @@ img{
   overflow: hidden;
 
 }
-.myplant{
-  background-color: #ffffffdf;
-  height: 100%;
-  margin: 50px;
+.sectionHolder{
   display: flex;
-  border-radius: 20px;
   flex-direction: column;
-}
-.datas{
-  display: flex;
-/*   flex-direction: row; */
-  margin: 20px;
-/*   background-color: rgb(80, 255, 214); */
-}
-.left
-{
-  display: flex;
   align-items: center;
-  flex-direction: column;
-  width: 50%;
-  background-color: rgb(185, 80, 255);
+  margin: 50px auto;
+  width: 90%;
+  background-color: aliceblue;
+  height: 100%;
+  border-radius: 10px;
 }
-.leftImg{
-  background-color: darkturquoise;
-  width: 80%;
-}
-.leftImg img{
-  object-fit: cover;
-  background-size: cover;
-  width: 100%;
-
-}
-.right{
+.content{
   display: flex;
-  flex-direction: column;
- /*  background-color: coral; */
-  width: 50%;
-}
-.watering{
-/*   background-color: hotpink; */
-  margin: 20px;
-}
-.holder{
-  display: flex;
+  margin: 50px;
 
 }
-.infoBtn button{
-  border: none;
-  background: none;
+
+.plantImg{
+  width: 30%;
+  height: 100%;
+  margin-right: 20px;
 }
 
-.waterBtn button{
+.imgHolder{
+  overflow:hidden;
+  }
 
-  border: 2px solid #81c5f5;
-  border-radius: 50%;
-  background: #81c5f5;
-  width: 80px;
-  height: 80px;
-  font-size: 25px;
-
-}
-.waterBtn button:hover{
-
-  border: 2px solid #3795d9;
-  border-radius: 50%;
-  background: #3795d9;
-
+  .imgHolder img{
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+  }
+.accordion
+{
+  width: 70%;
 }
