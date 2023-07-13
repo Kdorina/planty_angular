@@ -71,7 +71,7 @@ img{
 }
 .accordion-item{
 border-radius: 30px;
-background-color: #e0ffc5;
+background-color: #3CA680;
 }
 .accordion-button{
   background:none;
@@ -103,4 +103,26 @@ background-color: #e0ffc5;
   {
     width: 100%;
   }
+}
+
+
+
+.waterBtn button{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #23ced987;
+  border: none;
+  padding:5px;
+  background-clip: content-box;
+}
+.waterBtn button:hover{
+  border: 3px solid #23CED9;
+}
+.waterBtn button i{
+  color: #15BEC9;
+  font-size: 25px;
+}
+.waterBtn button:hover i{
+  font-size: 27px;
 }
