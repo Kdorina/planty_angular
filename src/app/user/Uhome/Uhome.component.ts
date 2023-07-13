@@ -46,10 +46,7 @@ export class UhomeComponent implements OnInit{
     }
 
 
-/* popoverVisible:any;
-    popover(){
-      this.popoverVisible= !this.popoverVisible;
-    }
- */
+popoverVisible = false;
+
   }
 
