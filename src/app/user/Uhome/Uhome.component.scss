@@ -129,3 +129,10 @@ background-color: #3CA680;
 .waterBtn button:hover i{
   font-size: 27px;
 }
+
+.popover_btn{
+display: flex;
+}
+.popover_btn .popover_content{
+  margin-left: 10px;
+}
