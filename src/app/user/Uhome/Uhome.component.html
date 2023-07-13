@@ -57,6 +57,12 @@
   </div>
 
   <div class="addWater">
+    <div class="popover_btn">
+      <p>Locsolás<button (click)="popover()"><i class="bi bi-info-circle"></i></button></p>
+    <div *ngIf="popoverVisible" class="popover_content">
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    </div>
     <div class="waterBtn">
       <button><i class="bi bi-droplet-fill"></i></button>
     </div>

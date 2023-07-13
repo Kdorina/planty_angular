@@ -19,7 +19,7 @@ img{
 .section{
   height: 700px;
   background: url('/assets/bg2.png') no-repeat;
-/*   background-color: rgb(163, 227, 126); */
+  background-color: #32be552e;
   background-size: cover;
   object-fit: cover;
   overflow: hidden;
@@ -31,7 +31,7 @@ img{
 /*   align-items: center; */
   margin: 50px auto;
   width: 90%;
-  background-color: rgba(255, 255, 255, 0.648);
+  background-color: #ffffffd2;
   height: 100%;
   border-radius: 10px;
 }
@@ -106,6 +106,9 @@ background-color: #3CA680;
 }
 
 
+.addWater{
+  margin-left: 50px;
+}
 
 .waterBtn button{
   width: 80px;

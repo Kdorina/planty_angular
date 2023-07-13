@@ -44,5 +44,12 @@ export class UhomeComponent implements OnInit{
     addPlant(){
 
     }
+
+
+popoverVisible:any;
+    popover(){
+      this.popoverVisible= !this.popoverVisible;
+    }
+
   }
 
