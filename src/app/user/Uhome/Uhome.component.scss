@@ -69,8 +69,12 @@ img{
 {
   display: flex;
 }
+.accordion-item{
+border-radius: 30px;
+background-color: #e0ffc5;
+}
 .accordion-button{
-  background-color: rgba(28, 189, 71, 0.741);
+  background:none;
 }
 
 
