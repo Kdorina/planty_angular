@@ -13,6 +13,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { UserComponent } from './user/user.component';
 import { UhomeComponent } from './user/Uhome/Uhome.component';
 import { UserNavbarComponent } from './user/userNavbar/navbar.component';
+import { InfoComponent } from './user/info/info.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { UserNavbarComponent } from './user/userNavbar/navbar.component';
     LoginComponent,
     UserComponent,
     UhomeComponent,
-    UserNavbarComponent
+    UserNavbarComponent,
+    InfoComponent
   ],
   imports: [
     BrowserModule,
