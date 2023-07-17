@@ -1,0 +1,22 @@
+ul{
+  margin: 20px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+}
+a{
+  color: black;
+  font-weight: 500;
+}
+li:hover{
+  background-color: #aae2a9;
+  border-radius: 20px;
+}
+a:hover{
+  color: #0b633c;
+}
+i{
+  color: #aae2a9;
+}
+li:hover i{
+  color: #0b633c;
+}

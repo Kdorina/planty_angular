@@ -17,9 +17,9 @@ img{
 
 
 .section{
-  height: 700px;
-  background: url('/assets/bg2.png') no-repeat;
-  background-color: #32be552e;
+  min-height: 700px;
+ /*  background: url('/assets/bg2.png') no-repeat; */
+  background-color: #25883d7e;
   background-size: cover;
   object-fit: cover;
   overflow: hidden;
@@ -71,12 +71,13 @@ img{
 }
 .accordion-item{
 border-radius: 30px;
-background-color: #3CA680;
+background-color: #aae2a9;
 }
 .accordion-button{
   background:none;
+  color: #0b633c;
+  font-weight: 500;
 }
-
 
 @media screen and (max-width:700px){
   .content{
