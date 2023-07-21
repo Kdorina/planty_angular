@@ -13,7 +13,6 @@ export class UserNavbarComponent  implements OnInit{
 
   ngOnInit(): void {
     this.isLoggedIn();
-    this.logout();
   }
 
   userName:any;
@@ -27,7 +26,7 @@ export class UserNavbarComponent  implements OnInit{
   logout(){
     let jsonCurrentUser: any = localStorage.getItem("currentUser");
     let currentUser = JSON.parse(jsonCurrentUser);
-    this.auth.logout(currentUser.email, currentUser.token).subscribe({
+    this.auth.logout(currentUser.name, currentUser.token).subscribe({
       next:data=>{
         localStorage.removeItem("currentUser");
         this.router.navigate(['/login']);

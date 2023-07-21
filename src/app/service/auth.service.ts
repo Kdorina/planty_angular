@@ -37,18 +37,24 @@ export class AuthService {
 
       return this.http.post<any>(url, data, httpOptions);
   }
-  logout(data:any, token:string){
+  logout(name:any, token:string){
+
+    let authData =
+    {
+      name: name,
+      token: token
+    }
     let header = new HttpHeaders(
       {
-        'Content-Type':'application/json',
-        'Authorization':'Bearer'+token
+        'Content-Type': 'application/json',
+        'Authorization': 'Bearer ' + token
       });
       let httpOptions ={
         headers: header
       }
       let url = this.host+'logout'
 
-      return this.http.post<any>(url, data, httpOptions);
+      return this.http.post<any>(url, authData, httpOptions);
   }
 
   isLoggedIn(){

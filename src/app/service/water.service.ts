@@ -25,4 +25,7 @@ export class WaterService {
     return this.http.get<any>(this.host+'water', httpOptions);
   }
 
+  reminder(){
+    return this.http.get<any>(this.host+'reminder');
+  }
 }

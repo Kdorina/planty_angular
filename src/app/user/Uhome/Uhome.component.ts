@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup } from '@angular/forms';
 import { ApiService } from '../../service/api.service';
+import { WaterService } from 'src/app/service/water.service';
 
 @Component({
   selector: 'app-user-home',
@@ -13,10 +14,11 @@ export class UhomeComponent implements OnInit{
   plants!:any;
   newUser!:any;
   myPlant!:any;
-  constructor(private api : ApiService ){}
+  constructor(private api : ApiService , private watering: WaterService){}
 
   ngOnInit() {
     this.index();
+    this.reminder();
   }
 
   index(){
@@ -41,12 +43,20 @@ export class UhomeComponent implements OnInit{
 
 }
 
-    addPlant(){
+  addPlant(){
 
-    }
-
+  }
 
 popoverVisible = false;
+
+
+  reminder(){
+    this.watering.reminder().subscribe({
+      next:data=>{
+        console.log(data);
+      }
+    })
+  }
 
   }
 
