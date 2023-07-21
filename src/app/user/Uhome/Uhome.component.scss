@@ -14,7 +14,22 @@ img{
   width: 20%;
   height: 20%;
 }
-
+/////////////////////////////////////////////
+.reminder{
+  display: flex;
+  justify-content: right;
+}
+.alert{
+  position: absolute;
+  margin-top: 30px;
+  margin-right: 10px;
+  background-color: #befb248b;
+  border: #8dbd09 solid 2px;
+}
+.alert strong{
+  color: #000000;
+}
+////////////////////////////////////////////
 
 .section{
   min-height: 700px;
