@@ -49,11 +49,12 @@ export class UhomeComponent implements OnInit{
 
 popoverVisible = false;
 
-
+message:any;
   reminder(){
     this.watering.reminder().subscribe({
       next:data=>{
         console.log(data);
+        this.message = data;
       }
     })
   }

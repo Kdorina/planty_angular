@@ -1,5 +1,12 @@
 
 <div class="section"  *ngFor="let plant of plants">
+
+
+ <div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>{{message?.message}}</strong>
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
  <div class="sectionHolder">
   <app-user-navbar></app-user-navbar>
   <div class="content">
@@ -78,6 +85,8 @@
   </div>
 
  </div>
+
+
 </div>
 
 

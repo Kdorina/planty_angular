@@ -102,8 +102,12 @@ height: 100%;
 }
 
 .accordion-item{
-border-radius: 30px;
-background-color: #aae2a9;
+  border-radius: 30px;
+  margin: 5px;
+}
+.accordion-header{
+  border: 5px solid  #aae2a9;
+  border-radius: 30px;
 }
 .accordion-button{
   background:none;
