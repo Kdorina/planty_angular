@@ -14,6 +14,7 @@ import { UserComponent } from './user/user.component';
 import { UhomeComponent } from './user/Uhome/Uhome.component';
 import { UserNavbarComponent } from './user/userNavbar/navbar.component';
 import { InfoComponent } from './user/info/info.component';
+import {ChartComponent} from './user/chart/chart.component';
 
 @NgModule({
   declarations: [
@@ -27,12 +28,14 @@ import { InfoComponent } from './user/info/info.component';
     UhomeComponent,
     UserNavbarComponent,
     InfoComponent,
+    ChartComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     ReactiveFormsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
