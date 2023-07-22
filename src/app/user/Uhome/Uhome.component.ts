@@ -19,6 +19,7 @@ export class UhomeComponent implements OnInit{
   ngOnInit() {
     this.index();
     this.reminder();
+    this.waterChart();
   }
 
   index(){
@@ -56,6 +57,19 @@ message:any;
         console.log(data);
         this.message = data;
       }
+    })
+  }
+
+wateringDate:any;
+  waterChart(){
+    let jsonUserData : any = localStorage.getItem("currentUser")
+    let currentUser = JSON.parse(jsonUserData);
+    this.watering.index(currentUser.token).subscribe({
+      next:(data: any)=>{
+       console.log(data);
+        this.wateringDate= data;
+      }
+
     })
   }
 

@@ -26,7 +26,7 @@ import { InfoComponent } from './user/info/info.component';
     UserComponent,
     UhomeComponent,
     UserNavbarComponent,
-    InfoComponent
+    InfoComponent,
   ],
   imports: [
     BrowserModule,
