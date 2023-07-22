@@ -27,13 +27,13 @@ export class ChartComponent implements OnInit{
       console.log(this.wateringNumber);
 
       this.chart = new Chart('canvas', {
-        type: 'bar',
+        type: 'line',
         data: {
           labels: this.wateringData,
           datasets: [
             {
               data: this.wateringNumber,
-              borderColor: '#3e95cd',
+              borderColor: '#23CED9',
               label: 'Dátum',
               backgroundColor: 'rgba(93, 175, 89, 0.1)',
               borderWidth: 3,

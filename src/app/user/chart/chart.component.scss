@@ -1,0 +1,19 @@
+.chart{
+  background-color:#EDF7FF;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+canvas{
+  width: 600px;
+  height: 400px;
+
+}
+/* @media screen and (max-width: 750px) {
+  canvas{
+    display: flex;
+    width: 500px;
+    height: 300px;
+  } */
+/* } */
