@@ -11,29 +11,33 @@
 
  <div class="sectionHolder">
   <app-user-navbar></app-user-navbar>
+
   <div class="content">
 
-    <div class="plantImg">
-        <div class="imgHolder"><img  [src]='"http://localhost:8000/storage/"+plant.imgpath' alt=""></div>
+    <div class="leftSide">
+      <div class="plantName">
+        <h2>{{plant.name}}</h2>
+      </div>
+      <div class="plantImg">
+          <div class="imgHolder"><img  [src]='"http://localhost:8000/storage/"+plant.imgpath' alt=""></div>
+      </div>
     </div>
 
     <div class="options">
 
       <div class="iconData">
-        <div class="temp">
-          <img src="assets/SUN.png" alt="sun">
           <div class="tempText">
-            <p>{{plant.temperature}}</p>
+            <p>{{plant.temperature}}&#8451;</p>
           </div>
-        </div>
-        <div class="watering">
-          <p>{{plant.watering}}</p>
-          <p>/</p>
-          <p class="liter">liter</p>
-        </div>
+          <div class="watering">
+            <p>{{plant.watering}}</p>
+            <p>/</p>
+            <p class="liter">liter</p>
+          </div>
       </div>
 
       <div class="accordion accordion-flush" id="accordionFlushExample">
+        <h2 class="title">Ismertető</h2>
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
