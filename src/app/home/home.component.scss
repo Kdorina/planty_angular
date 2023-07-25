@@ -1,4 +1,6 @@
-
+/* *{
+  font-family: fansy;
+} */
 #upButton {
   display: none;
   position: fixed;
@@ -92,6 +94,7 @@ z-index: 1; // változtatas
 
 .mainTitle2{
   z-index: 1; // változtatas
+/*   font-family: fansy; */
 }
 
 .cardHolder{
@@ -133,7 +136,7 @@ z-index: 1; // változtatas
 .serviceTitle h4{
   margin-top: 35px;
   text-align: center;
-  color: #338f8c;
+  color: #12692f;
 }
 .serviceTitle p{
   text-align: center;
