@@ -11,6 +11,7 @@ import { WaterService } from 'src/app/service/water.service';
 export class UhomeComponent implements OnInit{
 
   plantForm!:FormGroup;
+  waterForm!:FormGroup;
   plants!:any;
   newUser!:any;
   myPlant!:any;
@@ -49,6 +50,14 @@ export class UhomeComponent implements OnInit{
   }
 
 popoverVisible = false;
+
+
+addWater(){
+
+}
+close(){
+  
+}
 
 message:any;
   reminder(){

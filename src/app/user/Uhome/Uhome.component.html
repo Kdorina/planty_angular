@@ -74,6 +74,7 @@
 
   </div>
 
+
   <div class="addWater">
     <div class="popover_btn">
       <h2>Locsolás</h2>
@@ -86,10 +87,32 @@
     </div>
 
     <div class="waterBtn">
-      <button><i class="bi bi-droplet-fill"></i></button>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+      <i class="bi bi-droplet-fill"></i></button>
     </div>
 
   </div>
+
+<!-- add water modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="input"><input type="number" name="" id=""></div>
+        <div class="volumen"><p>/dl</p></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Mégsem</button>
+        <button type="button" class="btn btn-primary">Öntözés</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
   <div class="chart">
     <app-chart></app-chart>
