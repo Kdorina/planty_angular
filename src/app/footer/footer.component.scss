@@ -1,5 +1,5 @@
 footer{
-  background-color:#224b3b;
+  background-color:#192521;
   height: 150px;
   width: 100%;
   display: flex;
@@ -18,7 +18,7 @@ text-align: center;
 margin-left: 50px;
 }
 .mainTitle{
-  font-family: cursive;
+  font-family: fansy;
   color: white;
   font-size: 35px;
 }
@@ -29,8 +29,7 @@ margin-left: 50px;
 .icons i{
   font-size: 20px;
   padding: 5px;
-  color: rgb(7, 78, 78);
-  color: white;
+  color: rgb(237, 103, 20);
 }
 .links{
   display: flex;
@@ -40,6 +39,7 @@ margin-left: 50px;
 }
 .links a{
   color: white;
+  text-align: center;
 }
 
 @media screen and (min-width:760px) {
