@@ -64,7 +64,7 @@ img{
 .plantName h2{
   font-size: 45px;
   font-weight: 600;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family:fansy;
 }
 .imgHolder{
   overflow:hidden;
@@ -123,7 +123,7 @@ img{
 
 .accordion .title{
   font-weight: 600;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family:fansy;
 }
 .accordion-item{
   margin: 5px;
@@ -206,6 +206,10 @@ img{
 
 .popover_btn{
 display: flex;
+}
+.popover_btn h2 {
+  font-weight: 600;
+  font-family: fansy;
 }
 .popover_btn .popover_content{
   margin-left: 10px;
