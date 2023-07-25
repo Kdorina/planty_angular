@@ -28,7 +28,7 @@
 
 .section1
 {
-height: 700px;
+/* height: 700px; */ //opcio 2
 
 //Első opció
 /* background-size: cover; */
@@ -36,10 +36,15 @@ height: 700px;
 /* background-size: cover;
 object-fit: cover; */
 
-
+//3 opció
+background-size: cover;
+background: url('/assets/plant10.jpg') no-repeat;
+background-size: cover;
+object-fit: cover;
+height: 700px;
 }
-// változtatas
-.mainImage{
+// változtatas 2
+/* .mainImage{
   position: absolute;
   background-size: cover;
   height: 200%;
@@ -49,7 +54,7 @@ object-fit: cover; */
   top: 0;
   right: 0;
 
-}
+} */
 
 .holder{
   height: 100%;
@@ -66,7 +71,8 @@ z-index: 1; // változtatas
 .mainTitle p{
   font-size: 25vmin;
   font-weight: 700;
-  color: rgb(7, 26, 3);
+  color: #ffffff;
+  font-family:fasy;
 
   //Első opció
   /* color: rgb(255, 255, 255); */
@@ -80,7 +86,7 @@ z-index: 1; // változtatas
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 550px;
+  height: 500px;
 
 }
 
@@ -99,26 +105,33 @@ z-index: 1; // változtatas
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin:10px;
+  margin:30px;
   width:200px;
   height: 250px;
-  border-radius: 5px;
-  background: #D9F1E8;
+/*   border-radius: 5px;
+  background: #d95326; */ //opcio 2
 
     //Első opció
    /*  background: #58af715e; */
   /* border: 2px solid #58af98; */
 
 }
+
 .cardImages i{
-  font-size: 50px;
-  color: #276f11ec;
+  font-size: 35px;
+  border-radius: 50%;
+  padding: 30px;
+  border: 3px solid #f35019;
 }
 
-.serviceTitle{
+.serviceTitle h4{
+  margin-top: 35px;
+  text-align: center;
+  color: #338f8c;
+}
+.serviceTitle p{
   text-align: center;
 }
-
 
 /* SECTION 3 */
 .section3{
@@ -133,7 +146,6 @@ z-index: 1; // változtatas
   width: 80%;
   height: 100%;
 /*   background-color: mediumturquoise; */
-
   display: grid;
   grid-template-columns: repeat(2,1fr);
   grid-gap: 50px 30px;
@@ -154,13 +166,13 @@ flex-direction: column;
 }
 
 .contentHolder .text p{
-  padding-left: 20px;
+  padding-left: 10px;
   font-size: 16px;
   line-height: 26px;
   padding-bottom: 15px;
 }
 .down{
-  top: 1590px;
+  top: 1550px;
   width: 80%;
   height: 100px;
   display: flex;
@@ -171,9 +183,9 @@ flex-direction: column;
 .down p{
   //Első opció
  /*  background: #276f119b; */
-  background-color: #31a77db9;
+  background-color: #f3501999;
   text-align: left;
-  margin-left: 40%;
+  margin-left: 30%;
   color: white;
 
 }
@@ -190,7 +202,7 @@ flex-direction: column;
 
   }
   .down{
-    top: 1500px;
+    top: 1460px;
     width: 90%;
     height: 100px;
     display: flex;
@@ -201,9 +213,9 @@ flex-direction: column;
   .down p{
       //Első opció
    /*  background: #276f119b; */
-    background-color: #31a77db9;
+    background-color: #f35019a6;
     text-align: left;
-    margin-left: -15%;
+    margin-left: -14%;
     width: 70%;
   }
 }
