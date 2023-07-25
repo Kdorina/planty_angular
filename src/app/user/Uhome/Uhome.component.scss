@@ -34,7 +34,9 @@ img{
 .section{
   min-height: 100vh;
  /*  background: url('/assets/bg2.png') no-repeat; */
-  background-color: #25883d7e;
+/*   background-color: #25883d7e; */ //opció 2
+//opció 4 teljesen fehér
+/* background: url('/assets/plant10.jpg') no-repeat; //opció 3 */
   background-size: cover;
   object-fit: cover;
   overflow: hidden;
