@@ -1,26 +1,26 @@
 
 .navbar {
   padding: 10px;
-  z-index: 1;
+  background: none;
+  position: absolute;
 }
-
 .container-fluid a{
-color: #000000;
+color: #ffffff;
 }
 button{
-  background-color: #ffffff7c;
+  background-color: #ea6929;
 }
 .navbar-nav a{
-  color: #000000;
+  color: #ffffff;
 }
 
 .navbar-nav a:hover{
   font-weight: 700;
-  color: #58C39D;
+
 }
 
 #navbarRightSide a:hover {
   font-weight: 700;
-  color: #c3ffea;
+
 }
 
