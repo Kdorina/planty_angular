@@ -319,14 +319,15 @@ min-height: 300px;
 .imgTitle{
   border-radius: 10px;
   padding: 10px;
-
+  margin: 10px;
   background: #47813d;
   color: #ffffff;
+  width: 450px;
 }
 //right
 .titleBox1{
-  width: calc(50% - 2rem);
-  margin-left: -50%;
+  width: calc(80% - 2rem);
+  margin-left: -30%;
   //Első opció
   /* background: #e6d3b15e; */
 }
@@ -337,7 +338,8 @@ min-height: 300px;
 }
 //left
 .titleBox2{
-  width: calc(50% - 2rem);
+  width: calc(80% - 2rem);
+  margin-right: -30%;
   //Első opció
   /* background: #e6d3b15e; */
 }
